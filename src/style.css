@@ -2,12 +2,14 @@ body {
   background: #fae3d9;
   font-family: "Karla", sans-serif;
 }
-
+header {
+  border-bottom: 1px solid #fae3d9;
+  padding: 5px 20px 30px;
+}
 a {
   color: #bbded6;
   text-decoration: none;
 }
-
 a:hover {
   cursor: pointer;
   color: #61c0bf;
@@ -44,13 +46,50 @@ a:hover {
 .search-form {
   text-align: center;
 }
-header {
-  border-bottom: 1px solid #fae3d9;
-  padding: 20px;
+.displayed-city {
+  text-align: center;
+  font-size: 40px;
 }
+.current-temperature {
+  display: flex;
+  margin-left: 170px;
+  font-size: 60px;
+}
+.displayed-temperature-value {
+  font-weight: 700;
+}
+.displayed-temperature-unit {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.current-data {
+  display: flex;
+}
+
+.displayed-emoji-right {
+  justify-content: end;
+  margin-left: 170px;
+  font-size: 40px;
+}
+.displayed-emoji-left {
+  margin-left: 30px;
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+  font-size: 19px;
+}
+p .highlighted-data {
+  color: #61c0bf;
+}
+main {
+  padding: 5px;
+}
+
 footer {
   border-top: 1px solid #fae3d9;
-  padding: 20px;
+  padding: 30px 20px 5px;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
