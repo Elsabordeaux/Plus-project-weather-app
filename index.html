@@ -16,18 +16,19 @@
   <body>
     <div class="container-weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-input"
+            id="search-input"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
-        <h1 class="displayed-city">London</h1>
+        <h1 class="displayed-city" id="displayed-city">London</h1>
         <div class="current-data">
           <span class="displayed-emoji-left">☀️</span>
 
@@ -62,5 +63,6 @@
         >
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
