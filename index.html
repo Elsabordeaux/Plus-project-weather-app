@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poetsen+One&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 
     <title>Alana's weather app</title>
   </head>
@@ -28,12 +29,15 @@
         </form>
       </header>
       <main>
-        <h1 class="displayed-city" id="displayed-city">London</h1>
+        <h1 class="displayed-city" id="displayed-city"></h1>
         <div class="current-data">
           <span class="displayed-emoji-left">☀️</span>
 
           <div class="current-temperature">
-            <span class="displayed-temperature-value">20</span>
+            <span
+              class="displayed-temperature-value"
+              id="displayed-temperature-value"
+            ></span>
             <span class="displayed-temperature-unit">°C</span>
           </div>
 
