@@ -43,6 +43,12 @@ a:hover {
   box-shadow: 0 5px 10px rgba(65, 50, 100, 0.08);
   font-size: 18px;
 }
+
+input:hover {
+  cursor: pointer;
+  background: white;
+  color: #bbded6;
+}
 .search-form {
   text-align: center;
 }
