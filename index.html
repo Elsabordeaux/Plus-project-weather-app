@@ -31,7 +31,7 @@
       <main>
         <h1 class="displayed-city" id="displayed-city"></h1>
         <div class="current-data">
-          <span class="displayed-emoji-left">☀️</span>
+          <span class="displayed-emoji-left" id="icon-left"></span>
 
           <div class="current-temperature">
             <span
@@ -41,14 +41,15 @@
             <span class="displayed-temperature-unit">°C</span>
           </div>
 
-          <span class="displayed-emoji-right">☀️</span>
+          <span class="displayed-emoji-right" id="icon-right"></span>
         </div>
         <div>
           <p>
-            Wednesday 19:11, overcast clouds
+            <span id="day-and-time"></span>, <span id="conditions"></span>
             <br />
-            Humidity: <span class="highlighted-data">72%</span>, Wind:
-            <span class="highlighted-data">3.6km/h</span>
+            Humidity: <span class="highlighted-data" id="humidity"></span>,
+            Wind:
+            <span class="highlighted-data" id="wind-speed"></span>
           </p>
         </div>
       </main>

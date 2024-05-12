@@ -52,7 +52,7 @@ a:hover {
 }
 .current-temperature {
   display: flex;
-  margin-left: 170px;
+  margin-left: 120px;
   font-size: 60px;
 }
 .displayed-temperature-value {
@@ -68,12 +68,12 @@ a:hover {
 
 .displayed-emoji-right {
   justify-content: end;
-  margin-left: 170px;
-  font-size: 40px;
+  margin-left: 60px;
+  font-size: 50px;
 }
 .displayed-emoji-left {
-  margin-left: 30px;
-  font-size: 40px;
+  margin-left: 20px;
+  font-size: 50px;
 }
 
 p {
