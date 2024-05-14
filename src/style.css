@@ -92,12 +92,19 @@ p .highlighted-data {
 main {
   padding: 5px;
 }
-
+footer {
+  border-top: 1px solid #fae3d9;
+  padding: 30px 20px 5px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
 .weather-forecast {
   display: flex;
   text-align: center;
   padding: 10px;
-  justify-content: space-between;
+}
+.row {
+  display: flex;
 }
 
 .column {
@@ -111,7 +118,6 @@ main {
 
 .weather-forecast-day {
   font-size: 18px;
-  font-weight: bold;
 }
 
 .forecast-temperature-max {
@@ -122,11 +128,4 @@ main {
 .forecast-temperature-min {
   padding: 5px;
   font-size: 15px;
-}
-
-footer {
-  border-top: 1px solid #fae3d9;
-  padding: 30px 20px 5px;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
 }
