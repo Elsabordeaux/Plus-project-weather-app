@@ -93,6 +93,37 @@ main {
   padding: 5px;
 }
 
+.weather-forecast {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.column {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.column:hover {
+  background: #fae3d9;
+}
+
+.weather-forecast-day {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.forecast-temperature-max {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+}
+.forecast-temperature-min {
+  padding: 5px;
+  font-size: 15px;
+}
+
 footer {
   border-top: 1px solid #fae3d9;
   padding: 30px 20px 5px;
