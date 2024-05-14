@@ -86,9 +86,8 @@ function displayForecast(response) {
     if (index < 5) {
       forecastHTML =
         forecastHTML +
-        ` <div class="row">
-            <div class="column">
-              <div class="weather-forecast-day">${formatDay(day.time)}
+        ` <div class="column">
+              <div class="weather-forecast-day">${formatDay(day.time)}</div>
                 <img src="${day.condition.icon_url}"
               />
               <span class="forecast-temperatures">
@@ -101,7 +100,7 @@ function displayForecast(response) {
                 )}°</span>
               </span>
             </div>
-          </div>`;
+          `;
     }
   });
 
